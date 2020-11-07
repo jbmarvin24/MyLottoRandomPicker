@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "MyLottoRandomPicker",
+    "name": "My PCSO Lotto Random Picker",
     "slug": "MyLottoRandomPicker",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/pcso-batman-logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-batman.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,8 +20,10 @@
       "supportsTablet": true
     },
     "android": {
+      "package" : "com.batman.mylottorandompicker",
+      "versionCode" : 2,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/pcso-batman-logo.png",
         "backgroundColor": "#FFFFFF"
       }
     },
